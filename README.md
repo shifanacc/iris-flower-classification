@@ -1,14 +1,14 @@
-### Iris Flower Classification Project
+# Iris Flower Classification Project
 
 This project focuses on classifying iris flower species using machine learning techniques. The goal is to predict the species of a flower based on its sepal and petal measurements.
 
-### Dataset
+## Dataset
 The dataset used in this project is the Iris dataset available in sklearn. It contains three classes of flowers: Setosa, Versicolor, and Virginica, along with four features such as sepal length, sepal width, petal length, and petal width.
 
-### Steps Performed
+## Steps Performed
 The project begins with loading the dataset and checking for missing values. Data preprocessing is done by scaling the features to improve model performance. Exploratory Data Analysis is performed using visualizations like pairplots and boxplots to understand the distribution of data and relationships between features.
 
-### Models Used
+## Models Used
 Three machine learning models were implemented in this project:
 * Logistic Regression
 * Decision Tree
@@ -16,13 +16,13 @@ Three machine learning models were implemented in this project:
 
 Each model was trained on the dataset and evaluated using accuracy score, classification report, and confusion matrix.
 
-### Results
+## Results
 All models achieved perfect accuracy on the test dataset. The confusion matrices showed no misclassification, which indicates that the dataset is simple and well structured.
 
-### Conclusion
+## Conclusion
 The project demonstrates that multiple machine learning models can perform equally well on clean and well separated data. Logistic Regression is preferred due to its simplicity and efficiency, but all models are suitable for this dataset.
 
-### Tools and Libraries
+## Tools and Libraries
 * Python
 * Pandas
 * NumPy
@@ -30,12 +30,13 @@ The project demonstrates that multiple machine learning models can perform equal
 * Seaborn
 * Scikit learn
 
-### How to Run
+## How to Run
 * Clone the repository
 * Open the Jupyter Notebook
 * Run all cells step by step to see the results
 
-#### Explanation Video
+## Explanation Video
 
 A detailed explanation video is provided below. Please refer to it to understand the project workflow and results
 
+https://drive.google.com/file/d/1FAGnh93BrnpWT8XstYkqW3jiN-atNjMu/view?usp=sharing
